@@ -1084,7 +1084,7 @@ background-color:transparent;
 /*Javascriptでのフェードイン*/
 #About, #Safe, #Flexbox2 {
     opacity: 0;
-    transform: translate(0, 100px);
+    transform: translate(0, 10px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
