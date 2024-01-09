@@ -237,12 +237,12 @@ background-color:transparent;
 
     display: block;
     width: 97.5vw;
-    height: 50vh;
+    height: 320px;
     z-index:18;
 
     margin-top: 80px;
     margin-bottom: 50px;
-    padding-bottom: 4vh;
+    padding-bottom: 40px;
 
 }
 
@@ -276,7 +276,7 @@ background-color:transparent;
     background-position: bottom;
     background-size: auto;
     width: 40%;
-    height: 45vh;
+    height: 280px;
     z-index:19;
     display: block;
     margin-top: 30px;
@@ -678,15 +678,15 @@ background-color:transparent;
 #footer-link{
     display: flex;
     flex-direction: column;
-    font-size: 2vw;
+    font-size: 0.8rem;
     margin-right: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: right;
 }
 
 #footer{
     background-color: #3C4FF6;
-    height: 100px;
+    height: 120px;
 }
 
 
@@ -708,7 +708,7 @@ background-color:transparent;
     background-repeat: no-repeat;
     background-position: bottom;
 
-    height: 65vh;
+    height: 345px;
     display: block;
     width: 100%;
     z-index:18;
@@ -717,10 +717,10 @@ background-color:transparent;
 }
 
 #Intro{
-    width:80%;
+    width:95%;
     display: block;
     margin: 0px auto;
-    font-size: 3.3vw;
+    font-size: 0.8rem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 38px;
@@ -735,7 +735,7 @@ background-color:transparent;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto;
-    height: 40vh;
+    height: 200px;
     width: 80%;
     z-index:16;
     display: block;
@@ -767,7 +767,7 @@ background-color:transparent;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 40vh;
+    height: 220px;
 }
 
 #Safe{
@@ -779,7 +779,7 @@ background-color:transparent;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 40vh;
+    height: 220px;
 }
 
 
@@ -796,7 +796,7 @@ background-color:transparent;
 
 /*文字の装飾*/
 #moji1, #moji2{
-    font-size: 3vw;
+    font-size: 0.7rem;
     z-index: 30;
 }
 
@@ -1084,7 +1084,7 @@ background-color:transparent;
 /*Javascriptでのフェードイン*/
 #About, #Safe, #Flexbox2 {
     opacity: 0;
-    transform: translate(0, 10px);
+    transform: translate(0, 100px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
